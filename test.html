@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halal Export Indonesia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004d40;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #80cbc4;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h2 {
+            font-size: 3rem;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .services {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .service-card {
+            flex: 1;
+            min-width: 300px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        form input, form textarea, form button {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        form button {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        form button:hover {
+            background-color: #a5a897;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Halal Export Indonesia</h1>
+        <p>Empowering Halal Products for Global Markets</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Discover Halal Excellence</h2>
+    </section>
+    <div class="container">
+        <section id="about" class="card">
+            <h3>About Us</h3>
+            <p>Halal Export Indonesia is committed to promoting high-quality, certified halal products worldwide. We bridge the gap between local producers and global markets.</p>
+        </section>
+        <section id="services" class="card">
+            <h3>Our Services</h3>
+            <div class="services">
+                <div class="service-card">
+                    <h4>Halal Certification</h4>
+                    <p>Guidance and support for obtaining international halal certifications.</p>
+                </div>
+                <div class="service-card">
+                    <h4>Market Access</h4>
+                    <p>Connecting local halal products with global distributors and retailers.</p>
+                </div>
+                <div class="service-card">
+                    <h4>Logistics Support</h4>
+                    <p>Comprehensive export logistics tailored to halal products.</p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="card">
+            <h3>Gallery</h3>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/300" alt="Product 1">
+                <img src="https://via.placeholder.com/300" alt="Product 2">
+                <img src="https://via.placeholder.com/300" alt="Product 3">
+                <img src="https://via.placeholder.com/300" alt="Product 4">
+                <img src="https://via.placeholder.com/300" alt="Product 5">
+                <img src="https://via.placeholder.com/300" alt="Product 6">
+                <img src="https://via.placeholder.com/300" alt="Product 7">
+                <img src="https://via.placeholder.com/300" alt="Product 8">
+                <img src="https://via.placeholder.com/300" alt="Product 9">
+            </div>
+        </section>
+        <section id="contact" class="card">
+            <h3>Contact Us</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="general">General Inquiry</option>
+                    <option value="services">Services Inquiry</option>
+                    <option value="partnership">Partnership Opportunities</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Halal Export Indonesia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
